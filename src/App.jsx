@@ -10,6 +10,7 @@ import { useState } from "react";
 
 
 
+
 function App() {
 
 const [bookmarked, setBookmarked] = useState([]);
@@ -57,8 +58,10 @@ const totalBids = bookmarked.reduce((acc, item) => acc + item.bidsCount, 0);
                 </div>
 
                 {/* footer */}
-                <div className="text-center bg-amber-50">
-<Footer></Footer>
+                <div className="text-center bg-amber-100">
+<Footer>
+
+</Footer>
                 </div>
      
     
